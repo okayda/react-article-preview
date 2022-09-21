@@ -13,7 +13,7 @@ Users should be able to:
 
 ## Links
 
-- [Solution URL]()
+- [Solution URL](https://github.com/okayda/react-article-preview.git)
 - [Live Site URL](https://jhon-okayda-article-preview-component.netlify.app/)
 
 ## Built with
