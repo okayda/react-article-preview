@@ -10,22 +10,22 @@ const Share = function (prop) {
       <ul className={prop.cardIcons}>
         <li>
           <a href="#/">
-            <img src={facebook} />
+            <img src={facebook} alt="" />
           </a>
         </li>
         <li>
           <a href="#/">
-            <img src={twitter} />
+            <img src={twitter} alt="" />
           </a>
         </li>
         <li>
           <a href="#/">
-            <img src={pinterest} />
+            <img src={pinterest} alt="" />
           </a>
         </li>
       </ul>
       <button onClick={prop.onClick}>
-        <img src={shareIconWhite} className={prop.cardShareIcon} />
+        <img src={shareIconWhite} className={prop.cardShareIcon} alt="" />
       </button>
     </div>
   );

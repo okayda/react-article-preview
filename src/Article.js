@@ -21,6 +21,7 @@ const Article = function () {
         <img
           src={require("./images/drawers.jpg")}
           className={style.card__img_content}
+          alt="Furniture"
         />
 
         <div className={style.card__wrapped}>
@@ -54,7 +55,7 @@ const Article = function () {
               </div>
             </div>
             <button onClick={showShare}>
-              <img src={shareIcon} className={style.card__share_icon} />
+              <img src={shareIcon} className={style.card__share_icon} alt="" />
             </button>
           </div>
         </div>
