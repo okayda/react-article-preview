@@ -48,7 +48,7 @@ const Article = function () {
           </div>
           <div className={style.card__person}>
             <div className={style.card__information}>
-              <img src={require("./images/avatar-michelle.jpg")} />
+              <img src={require("./images/avatar-michelle.jpg")} alt="" />
               <div className={style.card__identification}>
                 <span className={style.name}>Michelle Appleton</span>
                 <span className={style.date}>28 Jun 2020</span>
