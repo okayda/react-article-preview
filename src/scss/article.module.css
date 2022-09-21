@@ -1,0 +1,125 @@
+.card {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+.card .hide {
+  transform: translateX(-100%);
+}
+.card .show {
+  transform: translateX(0);
+}
+.card__mobile_state {
+  transition: 0.5s;
+  position: absolute;
+  transform: translateX(-100%);
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  height: 8.8rem;
+  width: 100%;
+  background-color: hsl(217deg, 19%, 35%);
+}
+.card__mobile_state button {
+  background-color: hsl(212deg, 23%, 69%);
+}
+.card__icons {
+  line-height: 1;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.card__icons a {
+  display: inline-block;
+}
+.card__icons img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.card__share {
+  color: hsl(212deg, 23%, 69%);
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+}
+.card__img_content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+.card__box {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.card__wrapped {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem 3rem 2rem;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.card__title {
+  color: hsl(217deg, 19%, 35%);
+  font-size: 1.8rem;
+}
+.card__description {
+  color: hsl(214deg, 17%, 51%);
+  font-size: 1.5rem;
+}
+.card__person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__information {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.card__information img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.card__identification {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.card__identification .name {
+  color: hsl(217deg, 19%, 35%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card__identification .date {
+  color: hsl(212deg, 23%, 69%);
+  font-size: 1.4rem;
+}
+.card__share_icon {
+  width: 1.5rem;
+  height: 1.3rem;
+}
+@media (min-width: 62.5em) {
+  .card {
+    max-width: 80rem;
+  }
+  .card__box {
+    grid-template-columns: 1fr 2fr;
+  }
+  .card__title {
+    font-size: 1.9rem;
+    width: 75%;
+  }
+}
